@@ -1,5 +1,7 @@
 package com.juliananorgini.API_Pessoas.config;
 
+import java.time.LocalDate;
+import java.time.Month;
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,8 +27,8 @@ public class TestConfig implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		
-		Pessoa p1 = new Pessoa(null, "Maria Brown", "14/04/1994");
-		Pessoa p2 = new Pessoa(null, "Alex Green", "18/08/1998");
+		Pessoa p1 = new Pessoa(null, "Maria Brown", LocalDate.of(1994, Month.APRIL, 14));
+		Pessoa p2 = new Pessoa(null, "Alex Green", LocalDate.of(1998, Month.AUGUST, 18));
 		
 		Endereco e1 = new Endereco(null, "Rua dos Lirios", "36305-284", 110, "São João Del Rei. Minas Gerais - MG", p1);
 		Endereco e2 = new Endereco(null, "Rua Rio Grande do Sul", "06411-900", 125, "Barueri. São Paulo - SP", p2);

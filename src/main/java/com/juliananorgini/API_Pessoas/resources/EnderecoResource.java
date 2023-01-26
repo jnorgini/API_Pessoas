@@ -13,7 +13,7 @@ import com.juliananorgini.API_Pessoas.entities.Endereco;
 import com.juliananorgini.API_Pessoas.services.EnderecoService;
 
 @RestController
-@RequestMapping(value="pessoas_enderecos")
+@RequestMapping(value="/enderecos")
 public class EnderecoResource {
 	
 	@Autowired
