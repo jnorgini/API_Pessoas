@@ -23,4 +23,12 @@ public class EnderecoService {
 		Optional<Endereco> obj = repository.findById(id);
 		return obj.get();
 	}
+	
+	public Endereco insert(Endereco obj) {
+		return repository.save(obj);
+	}
+	
+	public void delete(Long id) {
+		repository.deleteById(id);
+	}
 }
