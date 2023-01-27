@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.juliananorgini.API_Pessoas.entities.Endereco;
 import com.juliananorgini.API_Pessoas.repositories.EnderecoRepository;
+import com.juliananorgini.API_Pessoas.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class EnderecoService {
@@ -21,7 +22,7 @@ public class EnderecoService {
 	
 	public Endereco findById(Long id) {
 		Optional<Endereco> obj = repository.findById(id);
-		return obj.get();
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 	
 	public Endereco insert(Endereco obj) {

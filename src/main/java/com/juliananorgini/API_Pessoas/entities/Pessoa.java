@@ -2,9 +2,9 @@ package com.juliananorgini.API_Pessoas.entities;
 
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
@@ -28,7 +28,7 @@ public class Pessoa implements Serializable {
 	private LocalDate dataDeNascimento;
 	
 	@OneToMany(mappedBy = "pessoa")
-	private List<Endereco> enderecos = new ArrayList<>();
+	private Set<Endereco> enderecos = new HashSet<>();
 	
 	public Pessoa() {
 	}
@@ -64,7 +64,7 @@ public class Pessoa implements Serializable {
 		this.dataDeNascimento = dataDeNascimento;
 	}
 	
-	public List<Endereco> getEnderecos() {
+	public Set<Endereco> getEnderecos() {
 		return enderecos;
 	}
 

@@ -36,11 +36,14 @@ public class TestConfig implements CommandLineRunner {
 		Endereco e1 = new Endereco(null, "Rua dos Lirios", "Pio XII", "36305-284", 110, "São João Del Rei. Minas Gerais - MG", p1);
 		Endereco e2 = new Endereco(null, "Rua Rio Grande do Sul, 125", "Jardim dos Camargos", "06411-900", 38, "Barueri. São Paulo - SP", p2);
 		Endereco e3 = new Endereco(null, "Alameda Laranjeiras", "Pinheirinho", "85603-815", 212, "Francisco Beltrão. Paraná - PR", p3);
-		Endereco e4 = new Endereco(null, "Avenida Santa Isabel", "Vila Santa Cecília", "09380-045", 937, "Mauá. São Paulo - SP", p4);
+		Endereco e4 = new Endereco(null, "Avenida Santa Isabel", "Vila Santa Cecília", "09380-045", 937, "Mauá. São Paulo - SP", p5);
 		Endereco e5 = new Endereco(null, "Rua Jerônimo Monteiro", "Parque Rizzo", "06702-607", 323, "Cotia - São Paulo - SP", p5);
+		Endereco e6 = new Endereco(null, "Travessa Orozimbo Fernandes Prado", "Nilópolis", "26520-334", 16, "Rio de Janeiro - RJ", p4);
+		Endereco e7 = new Endereco(null, "Rua Marcelo Gama", "São João", "90540-041", 123, "Porto Alegre - RS", p2);
+		Endereco e8 = new Endereco(null, "1ª Travessa Antonina Mendes", "Tancredo Neves", "41205-570", 45, "Salvador BA", p2);
 		
 		pessoaRepository.saveAll(Arrays.asList(p1, p2, p3, p4, p5));
-		enderecoRepository.saveAll(Arrays.asList(e1, e2, e3, e4, e5));
+		enderecoRepository.saveAll(Arrays.asList(e1, e2, e3, e4, e5, e6, e7, e8));
 		
 	}
 }
