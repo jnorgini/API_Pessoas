@@ -13,23 +13,6 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
-#### Tecnologias:
-
-- Java
-- Spring Boot
-- Maven
-- Apache Tomcat
-- H2
-- Postman
-
-#### IDE:
-
-- Spring Tool Suite 4
-
-#### Ferramenta de versionamento:
-
-- Git
-
 
 <h3> Como executar o projeto</h3>
 
@@ -69,6 +52,26 @@ Obs: também é possível manipular as tabelas especificando o id. Exemplo: /pes
 ## Postman
 
 [postman.webm](https://user-images.githubusercontent.com/114461353/215025264-87708ec0-2fcf-469c-b306-1818e561e991.webm)
+
+#### Tecnologias:
+
+- Java
+- Spring Boot
+- Maven
+- Apache Tomcat
+- H2
+- Postman
+
+
+#### IDE:
+
+- Spring Tool Suite 4
+
+#### Ferramenta de versionamento:
+
+- Git
+
+---
 
 >Autoria: Juliana Norgini
 
