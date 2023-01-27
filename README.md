@@ -1,6 +1,6 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
 
-<h1 align="center"><a href="https://user-images.githubusercontent.com/"><img src="https://user-images.githubusercontent.com/114461353/215025461-97098063-85f6-4698-877a-cb5352976d4e.png" alt="Logo" width=500"/></a> <br /> </h1> 
+<h1 align="center"><a href="https://user-images.githubusercontent.com/"><img src="https://user-images.githubusercontent.com/114461353/215025461-97098063-85f6-4698-877a-cb5352976d4e.png" alt="Logo" width=800"/></a> <br /> </h1> 
 
 <h1 align="center"> Spring boot, Hibernate, JPA and H2 database REST API </h1>
 
