@@ -36,7 +36,7 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 
 # executar o projeto no STS
 1. Clicar com o direito no projeto -> Run as -> Maven Build... -> colocar no campo Goals: clean package -> Run
-1. Em Boot DashBoard abrir local e selecionar a API_Pessoas
+1. Em Boot DashBoard abrir local e selecionar API_Pessoas
 2. Clicar no ícone 🟥'start or restart the process associated with the selected elements'
 
 # executar os testes e as modificações
