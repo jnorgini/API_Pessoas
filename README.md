@@ -44,8 +44,8 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 
 # executar os testes e as modificações
 ⌨️ Navegador http://localhost:8081/h2-console/ ➡️ Connect 
-🛠️ Postman http://localhost:8080/pessoas ou /enderecos ou /pessoas/1, etc.
-Obs: também é possível manipular as tabelas especificando o id. Exemplo: /products/5
+🛠️ Postman http://localhost:8080/pessoas ou /enderecos
+Obs: também é possível manipular as tabelas especificando o id. Exemplo: /pessoas/5
 ```
 
 
