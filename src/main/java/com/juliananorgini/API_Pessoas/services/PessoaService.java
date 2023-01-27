@@ -13,6 +13,8 @@ import com.juliananorgini.API_Pessoas.repositories.PessoaRepository;
 import com.juliananorgini.API_Pessoas.services.exceptions.DatabaseException;
 import com.juliananorgini.API_Pessoas.services.exceptions.ResourceNotFoundException;
 
+import jakarta.persistence.EntityNotFoundException;
+
 @Service
 public class PessoaService {
 	
@@ -43,9 +45,13 @@ public class PessoaService {
 	}
 	
 	public Pessoa update(Long id, Pessoa obj) {
-		Pessoa entity = repository.getReferenceById(id);
-		updateData(entity, obj);
-		return repository.save(entity);
+		try {
+			Pessoa entity = repository.getReferenceById(id);
+			updateData(entity, obj);
+			return repository.save(entity);
+		} catch (EntityNotFoundException e) {
+			throw new ResourceNotFoundException(id);
+		}
 	}
 	
 	public void updateData(Pessoa entity, Pessoa obj) {
