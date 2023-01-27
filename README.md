@@ -3,10 +3,6 @@
 
 <h1 align="center"> Spring boot, Hibernate, JPA and H2 database REST API </h1>
 
-## Tecnologias utilizadas 
-
-<h1><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="450" height="200"/> </a></h1>
-
 ### Etapas de implementação:
 - [x] Criação do projeto Spring Boot Java
 - [x] Implementação do modelo de domínio
@@ -16,7 +12,8 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
-<h2></h2>
+<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="500" height="200"/> </a></h1>
+
 
 <h3> Como executar o projeto</h3>
 
