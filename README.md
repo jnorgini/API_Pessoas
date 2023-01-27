@@ -39,8 +39,8 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 
 # executar o projeto no STS
 📁 src/main/java
- 📂 com.educandoweb.course
-  ➡️ CourseApplication.java / Run As / Spring Boot App
+ 📂 com.juliananorgini.API_Pessoas
+  ➡️ ApiPessoasApplication / Run As / Spring Boot App
 
 # executar os testes e as modificações
 ⌨️ Navegador http://localhost:8081/h2-console/ ➡️ Connect 
@@ -57,11 +57,9 @@ Obs: também é possível manipular as tabelas especificando o id. Exemplo: /pes
 
 [postman.webm](https://user-images.githubusercontent.com/114461353/215025264-87708ec0-2fcf-469c-b306-1818e561e991.webm)
 
-## Autoria
+>Autoria: Juliana Norgini
 
-Juliana Norgini
-
- ## Contato
+>Contato
  
  [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-6633cc?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juliana-norgini)](https://www.linkedin.com/in/juliana-norgini)
 [![Gmail Badge](https://img.shields.io/badge/-jnorgini@gmail.com-6633cc?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jnorgini@gmail.com)](mailto:jnorgini@gmail.com)
