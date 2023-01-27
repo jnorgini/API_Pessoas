@@ -35,7 +35,8 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 1. Ir em file
 2. Open Projects from File System
 3. Directory / localizar o repositório clonado / selecionar a pasta API_Pessoas
-4. Finish
+4. Em Working sets selecionar [x] Add project to working sets
+5. Finish
 
 # executar o projeto no STS
 📁 src/main/java
@@ -44,7 +45,7 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 
 # executar os testes e as modificações
 ⌨️ Navegador http://localhost:8081/h2-console/ ➡️ Connect 
-🛠️ Postman http://localhost:8080/pessoas ou /enderecos
+🛠️ Postman http://localhost:8081/pessoas ou /enderecos
 Obs: também é possível manipular as tabelas especificando o id. Exemplo: /pessoas/5
 ```
 
