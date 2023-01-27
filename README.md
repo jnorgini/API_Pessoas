@@ -35,8 +35,7 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 1. Ir em file
 2. Open Projects from File System
 3. Directory / localizar o repositório clonado / selecionar a pasta API_Pessoas
-4. Em Working sets selecionar [x] Add project to working sets
-5. Finish
+4. Finish
 
 # executar o projeto no STS
 📁 src/main/java
