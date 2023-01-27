@@ -16,7 +16,7 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
----
+<h2></h2>
 
 <h3> Como executar o projeto</h3>
 
