@@ -1,4 +1,5 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
+
 <h1 align="center"><a href="https://user-images.githubusercontent.com/"><img src="https://user-images.githubusercontent.com/114461353/215025461-97098063-85f6-4698-877a-cb5352976d4e.png" alt="Logo" width=500"/></a> <br /> </h1> 
 
 <h1 align="center"> Spring boot, Hibernate, JPA and H2 database REST API </h1>
@@ -12,7 +13,7 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
-<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="500" height="200"/> </a></h1>
+<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="500" height="150"/> </a></h1>
 
 
 <h3> Como executar o projeto</h3>
