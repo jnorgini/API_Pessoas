@@ -7,7 +7,6 @@ import java.util.List;
 import java.util.Objects;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.juliananorgini.API_Pessoas.entities.enums.TipoPessoa;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,19 +27,16 @@ public class Pessoa implements Serializable {
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")
 	private LocalDate dataDeNascimento;
 	
-	private Integer tipoPessoa;
-	
 	@OneToMany(mappedBy = "pessoa")
 	private List<Endereco> enderecos = new ArrayList<>();
 	
 	public Pessoa() {
 	}
 
-	public Pessoa(Long id, String nome, TipoPessoa tipoPessoa, LocalDate dataDeNascimento) {
+	public Pessoa(Long id, String nome, LocalDate dataDeNascimento) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		setTipoPessoa(tipoPessoa);
 		this.dataDeNascimento = dataDeNascimento;
 	}
 
@@ -58,16 +54,6 @@ public class Pessoa implements Serializable {
 
 	public void setNome(String nome) {
 		this.nome = nome;
-	}
-	
-	public TipoPessoa getTipoPessoa() {
-		return TipoPessoa.valueOf(tipoPessoa);
-	}
-
-	public void setTipoPessoa(TipoPessoa tipoPessoa) {
-		if(tipoPessoa != null) {
-			this.tipoPessoa = tipoPessoa.getCode();
-		}
 	}
 
 	public LocalDate getDataDeNascimento() {
