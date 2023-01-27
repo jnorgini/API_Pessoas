@@ -13,7 +13,7 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
-<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="500" height="150"/> </a></h1>
+<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="420" height="180"/> </a></h1>
 
 
 <h3> Como executar o projeto</h3>
