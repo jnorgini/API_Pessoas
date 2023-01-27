@@ -13,7 +13,22 @@
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
-<h1 align="right"><img src="https://user-images.githubusercontent.com/114461353/215026743-aa1779f0-2832-45cb-a2c4-d2f7d7e6748a.png" alt="java" width="420" height="180"/> </a></h1>
+#### Tecnologias:
+
+- Java
+- Spring Boot
+- Maven
+- Apache Tomcat
+- H2
+- Postman
+
+#### IDE:
+
+- Spring Tool Suite 4
+
+#### Ferramenta de versionamento:
+
+- Git
 
 
 <h3> Como executar o projeto</h3>
