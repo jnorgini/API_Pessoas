@@ -31,12 +31,12 @@ git clone https://github.com/jnorgini/API_Pessoas.git
 1. Ir em file
 2. Open Projects from File System
 3. Directory / localizar o repositório clonado / selecionar a pasta API_Pessoas
-4. Finish
+4. Selecionar Detect and configure project natures
+5. Finish
 
 # executar o projeto no STS
-📁 src/main/java
- 📂 com.juliananorgini.API_Pessoas
-  ➡️ ApiPessoasApplication / Run As / Spring Boot App
+1. Em Boot DashBoard abrir o local e selecionar a API_Pessoas
+2. Clicar no ícone 🟥'start or restart the process associated with the selected elements'
 
 # executar os testes e as modificações
 ⌨️ Navegador http://localhost:8081/h2-console/ ➡️ Connect 
