@@ -1,6 +1,6 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
 
-<h1 align="center"><a href="https://res.cloudinary.com/practicaldev/image/fetch/"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--LeqrCOME--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/91ovedmu4grqhjh434rq.png" alt="Logo" width=500"/></a> <br /> </h1> 
+<h1 align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*0-Hyu03i97pVH5TCwlscAg.png" alt="Logo" width=500"/></a> <br /> </h1> 
 
 <h3 align="center">Spring boot, Hibernate, JPA and H2 database REST API</h3>
 
