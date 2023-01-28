@@ -1,8 +1,26 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
 
+<h3 align="center">Spring boot, Hibernate, JPA and H2 database REST API</h3>
+
 <h1 align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*0-Hyu03i97pVH5TCwlscAg.png" alt="Logo" width=500"/></a> <br /> </h1> 
 
-<h3 align="center">Spring boot, Hibernate, JPA and H2 database REST API</h3>
+
+API para gerenciamento de pessoas. Permitindo criar, editar, consultar e listar pessoas. Cada pessoa pode ter um ou mais endereços.
+
+```bash
+# Cada pessoa tem:
+> Nome
+> Data de nascimento
+> Endereços com: 
+                > Logradouro 
+                           > CEP
+                                 > número 
+                                          > bairro 
+                                                   > cidade
+```
+
+_Respostas da API em JSON. Banco de dados H2 e testes no Postman._ 
+
 
 ---
 
