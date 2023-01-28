@@ -2,15 +2,11 @@
 
 <h1 align="center"><a href="https://user-images.githubusercontent.com/"><img src="https://user-images.githubusercontent.com/114461353/215025461-97098063-85f6-4698-877a-cb5352976d4e.png" alt="Logo" width=600"/></a> <br /> </h1> 
 
-Spring boot, Hibernate, JPA and H2 database REST API
-
-<p align="left"> <a href="https://www.java.com" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-<a href="https://spring.io/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a>
+**Spring boot, Hibernate, JPA and H2 database REST API**
 
 
-### Etapas de implementação:
+
+#### Etapas de implementação:
 - [x] Criação do projeto Spring Boot Java
 - [x] Implementação do modelo de domínio
 - [x] Estruturação das camadas lógicas: resource, service, repository
@@ -20,13 +16,13 @@ Spring boot, Hibernate, JPA and H2 database REST API
 - [x] Tratamento de exceções
 
 
-<h3> Como executar o projeto</h3>
+<h4> Como executar o projeto</h4>
 
 #### 🛑 Pré-requistos
 
-💻 Git Bash
-🛠 Spring Tool Suite 4
-⚙️ Postman
+- [x] Git Bash
+- [x] Spring Tool Suite 4
+- [x] Postman
 
 
 ```bash
