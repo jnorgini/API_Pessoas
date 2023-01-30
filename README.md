@@ -8,7 +8,7 @@
 API para gerenciamento de pessoas. Permitindo criar, editar, consultar e listar pessoas. Cada pessoa pode ter um ou mais endereços.
 
 ```bash
-# Cada pessoa tem:
+# Pessoa:
 > Nome
 > Data de nascimento
 > Endereços com: 
