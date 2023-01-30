@@ -1,7 +1,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
 
 
-<h1 align="center"><img src="https://camo.githubusercontent.com/22b5d863bed8a7451ea4411b20224278c76aaa5a6b780113a3c1250521ac522a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3832382f666f726d61743a776562702f312a302d4879753033693937705648355443776c736341672e706e67" alt="Logo" width=600"/></a> <br /> </h1> 
+<h1 align="center"><img src="https://camo.githubusercontent.com/22b5d863bed8a7451ea4411b20224278c76aaa5a6b780113a3c1250521ac522a/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f76322f726573697a653a6669743a3832382f666f726d61743a776562702f312a302d4879753033693937705648355443776c736341672e706e67" alt="Logo" width=500"/></a> <br /> </h1> 
 
 
 API para gerenciamento de pessoas. Permitindo criar, editar, consultar e listar pessoas. Cada pessoa pode ter um ou mais endereços.
