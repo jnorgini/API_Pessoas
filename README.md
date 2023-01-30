@@ -1,8 +1,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jnorgini/API_Pessoas/blob/main/licence)
 
-<h3 align="center">Spring boot, Hibernate, JPA and H2 database REST API</h3>
 
-<h1 align="center"><img src="https://miro.medium.com/v2/resize:fit:828/format:webp/1*0-Hyu03i97pVH5TCwlscAg.png" alt="Logo" width=500"/></a> <br /> </h1> 
+<h1 align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--PHvvmnw8--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/91ovedmu4grqhjh434rq.png" alt="Logo" width=600"/></a> <br /> </h1> 
 
 
 API para gerenciamento de pessoas. Permitindo criar, editar, consultar e listar pessoas. Cada pessoa pode ter um ou mais endereços.
@@ -25,7 +24,7 @@ _Respostas da API em JSON. Banco de dados H2 e testes no Postman._
 ---
 
 
-#### Etapas de implementação:
+### Etapas de implementação:
 - [x] Criação do projeto Spring Boot Java
 - [x] Implementação do modelo de domínio
 - [x] Estruturação das camadas lógicas: resource, service, repository
@@ -34,8 +33,12 @@ _Respostas da API em JSON. Banco de dados H2 e testes no Postman._
 - [x] CRUD - Create, Retrieve, Update, Delete
 - [x] Tratamento de exceções
 
+<h2></h2>
 
-<h4> Como executar o projeto</h4>
+<h3>Estrutura do projeto:</h3>
+<h2 align="left"><img src="https://user-images.githubusercontent.com/114461353/215490251-f530965d-9c89-45f3-8e3b-53261007ce68.png" alt="estrutura" width=350"/></a> <br /></h2>
+
+<h3>Como executar o projeto</h3>
 
 #### 🛑 Pré-requistos
 
@@ -49,29 +52,27 @@ _Respostas da API em JSON. Banco de dados H2 e testes no Postman._
 git clone https://github.com/jnorgini/API_Pessoas.git
 
 # abrir o Spring Tool Suite 4
-1. Ir em file
-2. Open Projects from File System
-3. Directory -> localizar o repositório clonado -> selecionar a pasta API_Pessoas
-4. Selecionar Detect and configure project natures
-5. Finish
+1. Ir em file > Import > Maven > Existing Maven Projects
+2. Localizar a pasta API_Pessoas
+3. Finish
 
 # executar o projeto no STS
-1. Clicar com o direito no projeto -> Run as -> Maven Build... -> colocar no campo Goals: clean package -> Run
-1. Em Boot DashBoard abrir local e selecionar API_Pessoas
-2. Clicar no ícone 🟥'start or restart the process associated with the selected elements'
+1. Clicar com o direito no projeto > Run as > Maven Build... > colocar no campo Goals: clean package > Run
+2. Ir em src/main/java > com.juliananorgini.API_Pessoas > ApiPessoasApplication.java > Run As > Spring Boot App
 
 # executar os testes e as modificações
 ⌨️ Navegador http://localhost:8081/h2-console/ ➡️ Connect 
 🛠️ Postman http://localhost:8081/pessoas ou /enderecos
 Obs: também é possível manipular as tabelas especificando o id. Exemplo: /pessoas/5
 ```
+<br />
 
-
-## H2
+## H2 (Sistema de gerenciamento de banco de dados relacional)
 [H2.webm](https://user-images.githubusercontent.com/114461353/215255500-d67c09fe-e532-47d5-9335-47100881e995.webm)
 
+<br />
 
-## Postman
+## Postman (API Client)
 [postman.webm](https://user-images.githubusercontent.com/114461353/215025264-87708ec0-2fcf-469c-b306-1818e561e991.webm)
 
 <h2></h2>
