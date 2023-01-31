@@ -25,13 +25,13 @@ _Respostas da API em JSON. Banco de dados H2 e testes no Postman._
 
 
 ### Etapas de implementação:
-- [x] Criação do projeto Spring Boot Java
-- [x] Implementação do modelo de domínio
-- [x] Estruturação das camadas lógicas: resource, service, repository
-- [x] Configuração do banco de dados de teste (H2)
-- [x] Povoar o banco de dados
-- [x] CRUD - Create, Retrieve, Update, Delete
-- [x] Tratamento de exceções
+- [x] [Criação do projeto Spring Boot Java](https://start.spring.io/)
+- [x] Implementação dos [modelos de domínio](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/entities)
+- [x] Estruturação das camadas lógicas: [resources](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/resources), [services](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/services), [repositories](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/repositories)
+- [x] Configuração do banco de dados de [teste](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/resources/application-test.properties) (H2)
+- [x] [Povoar o banco de dados](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/java/com/juliananorgini/API_Pessoas/config/TestConfig.java)
+- [x] [CRUD](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/java/com/juliananorgini/API_Pessoas/services/PessoaService.java) - [Create, Retrieve](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/java/com/juliananorgini/API_Pessoas/resources/PessoaResource.java), [Update](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/java/com/juliananorgini/API_Pessoas/services/EnderecoService.java), [Delete](https://github.com/jnorgini/API_Pessoas/blob/main/src/main/java/com/juliananorgini/API_Pessoas/resources/EnderecoResource.java)
+- [x] [Tratamento de](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/resources/exceptions) [exceções](https://github.com/jnorgini/API_Pessoas/tree/main/src/main/java/com/juliananorgini/API_Pessoas/services/exceptions)
 
 <h2></h2>
 
